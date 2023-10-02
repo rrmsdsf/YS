@@ -1,0 +1,23 @@
+leader_traits = {
+	undistinguished_suit = {
+		random = yes
+	}
+
+	hog_ino_Nagatacho = {
+     	stability_factor = -0.10
+	    poverty_monthly_rate = 0.02
+		misc_income_percent_of_GDP_modifier = 0.1
+
+
+		random = no
+	}
+	 lonely_shadow_in_the_sea = {
+	    production_speed_dockyard_factor = 0.20
+	    MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR = 0.2
+	    war_support_weekly = -0.0002
+
+
+		random = no
+	}
+
+}

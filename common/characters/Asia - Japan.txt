@@ -1,0 +1,138 @@
+characters = {
+	# Starting Country Leaders
+	JAP_hirohito_ino = {
+		name = JAP_hirohito_ino
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_Hirohito.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HIROHITO_INO_DESC"
+			ideology = fascism_reform_bureaucracy_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_ino_hiroya = {
+		name = JAP_ino_hiroya
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_ino_hiroya"
+
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = JAP_ino_hiroya_hog 
+			allowed = { original_tag = JAP }
+			traits = {
+				head_of_government
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}
+	JAP_abe_kasuke = {
+		name = JAP_abe_kasuke
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_abe_kasuke"
+
+				
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = JAP_abe_kasuke_hog 
+			allowed = { original_tag = JAP }
+			traits = {
+				head_of_government
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}	
+	JAP_takase_jirou = {
+		name = JAP_takase_jirou
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_takase_jirou"
+
+				
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = JAP_takase_jirou_for 
+			allowed = { original_tag = JAP }
+			traits = {
+				foreign_minister
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}	
+	JAP_uemura_kougorou = {
+		name = JAP_uemura_kougorou
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_uemura_kougorou"
+
+				
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = JAP_uemura_kougorou_eco 
+			allowed = { original_tag = JAP }
+			traits = {
+				economy_minister
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}
+	JAP_abe_genki = {
+		name = JAP_abe_genki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_abe_genki"
+
+				
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = JAP_abe_genki_sec 
+			allowed = { original_tag = JAP }
+			traits = {
+				security_minister
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}		
+
+}

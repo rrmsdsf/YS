@@ -1,0 +1,8 @@
+spriteTypes = {
+	###CHI
+	spriteType = {
+		name = "GFX_idea_CHI_National_Central_University"
+		texturefile = "gfx/interface/ideas/national_spirits/CHI_National_Central_University.dds"
+	}
+	
+}	
