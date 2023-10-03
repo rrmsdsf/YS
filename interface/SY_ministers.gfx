@@ -5,7 +5,6 @@ spriteTypes = {
 		name = "GFX_idea_JAP_minister_ino_hiroya"
 		texturefile = "gfx/interface/ideas/ministers/JAP/idea_JAP_minister_ino_hiroya.dds"
 	}
-
 	spriteType = {
 		name = "GFX_idea_JAP_minister_abe_kasuke"
 		texturefile = "gfx/interface/ideas/ministers/JAP/idea_JAP_minister_abe_kasuke.dds"
@@ -23,5 +22,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/JAP/idea_JAP_minister_abe_genki.dds"
 	}
 
+
+
+
+	spriteType = {
+		name = "GFX_idea_JAP_minister_yoshino_shinji"
+		texturefile = "gfx/interface/ideas/ministers/JAP/idea_JAP_minister_yoshino_shinji.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_minister_sakomizu_hisatsune"
+		texturefile = "gfx/interface/ideas/ministers/JAP/idea_JAP_minister_sakomizu_hisatsune.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_minister_ushiba_nobuhiko"
+		texturefile = "gfx/interface/ideas/ministers/JAP/idea_JAP_minister_ushiba_nobuhiko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_minister_watanabetakeshi"
+		texturefile = "gfx/interface/ideas/ministers/JAP/idea_JAP_minister_watanabetakeshi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_minister_kan_tarou"
+		texturefile = "gfx/interface/ideas/ministers/JAP/idea_JAP_minister_kan_tarou.dds"
+	}
 
 }

@@ -18,12 +18,30 @@ recruit_character = JAP_aichi_kiichi
 recruit_character = JAP_fukuda_takeo
 recruit_character = JAP_shiina_etsusaburo
 
+recruit_character = JAP_uncharted
+recruit_character = JAP_katayama_tetsu
+recruit_character = JAP_hanyuu_sanshichi
+recruit_character = JAP_miki_takeo
+recruit_character = JAP_nomoto_shinakichi
+recruit_character = JAP_ikedahayato
+recruit_character = JAP_fukuda_takeo
+recruit_character = JAP_konoe_fumimaro
+recruit_character = JAP_satoueisaku
+recruit_character = JAP_nakano_seigou
+recruit_character = JAP_satou_kenryou
+
+
+
 # Ministers
 recruit_character = JAP_ino_hiroya
 recruit_character = JAP_abe_kasuke
 recruit_character = JAP_takase_jirou
 recruit_character = JAP_uemura_kougorou
 recruit_character = JAP_abe_genki
+
+recruit_character = JAP_sakomizu_hisatsune
+recruit_character = JAP_watanabetakeshi
+recruit_character = JAP_kan_tarou
 
 recruit_character = JAP_Ikeda_Hayato
 recruit_character = JAP_Fujiyama_Aiichiro
@@ -516,7 +534,8 @@ set_popularities = {
 	liberalism = 5
 	liberal_conservatism = 3
 	conservatism = 10
-	paternalism = 12
+	paternalism_1 = 2
+	paternalism = 10
 	despotism = 20
 	fascism = 30
 	national_socialism = 5
@@ -555,10 +574,10 @@ set_variable = {
 add_ideas = {
 	#Standard#
 	Sphere_Leader
-	JAP_showa_emperor
-	#JAP_korea_tunnel_#construction
-	JAP_zaibatsu_question
-	JAP_legacy_guarded_pearl_exercises
+	JAP_CoP_agreement_repercussions
+	JAP_bureaucratic_paradise
+	JAP_bitter_fruit_of_victory
+	
 
 	#SOCIETAL DEVELOPMENT
 	

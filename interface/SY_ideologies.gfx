@@ -3,5 +3,9 @@ spriteTypes = {
 		name = "GFX_ideology_national_socialism_eastern_national_socialism_subtype"
 		texturefile = "gfx/interface/ideologies/national_socialism_eastern_national_socialism_subtype.dds"
 	}	
+	spriteType = {
+		name = "GFX_ideology_liberalism_uncorrupted_liberalism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_uncorrupted_liberalism_subtype.dds"
+	}	
 
 }

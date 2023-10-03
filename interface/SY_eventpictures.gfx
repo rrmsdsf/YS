@@ -1,0 +1,33 @@
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_report_event_JAP_ino_hiroya_retire"
+		texturefile = "gfx/event_pictures/Asia/Japan/report_event_JAP_ino_hiroya_retire.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_JAP_ino_yoshino_shinji_came_to_power"
+		texturefile = "gfx/event_pictures/Asia/Japan/report_event_JAP_ino_yoshino_shinji_came_to_power.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_JAP_A_new_generation_under_fire"
+		texturefile = "gfx/event_pictures/Asia/Japan/report_event_JAP_A_new_generation_under_fire.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_JAP_Zero_day"
+		texturefile = "gfx/event_pictures/Asia/Japan/report_event_JAP_Zero_day.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_JAP_ino_yoshino_shinji_came_to_power"
+		texturefile = "gfx/event_pictures/news_event/Asia/Japan/news_event_JAP_ino_yoshino_shinji_came_to_power.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_SY_WORLD_2"
+		texturefile = "gfx/event_pictures/news_event/Asia/Japan/news_event_SY_WORLD_2.dds"
+	}
+	
+
+
+
+}

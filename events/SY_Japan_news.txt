@@ -1,0 +1,95 @@
+add_namespace = SY_WORLD
+add_namespace = WORLD
+
+#Generic Hawaiian Missile Crisis
+news_event = {
+	id = SY_WORLD.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SY_WORLD.1"}
+	title = SY_WORLD.1.t
+	desc = SY_WORLD.1.d
+	picture = GFX_news_event_JAP_ino_yoshino_shinji_came_to_power
+
+	is_triggered_only = yes
+
+	option = {
+		name = SY_WORLD.1.a
+		trigger = {
+            OR = {		
+				is_in_faction_with = JAP
+				original_tag = JAP
+
+             }
+		}
+	}		
+	option = {
+		name = SY_WORLD.1.b
+		trigger = {
+			NOT = {
+			    is_in_faction_with = JAP
+				original_tag = JAP
+				has_government = communist
+				has_government = socialist
+				has_government = progressivism
+				has_government = liberalism
+				has_government = liberal_conservatism
+				has_government = conservatism
+				has_government = paternalism
+			}
+			OR = {
+				has_government = despotism
+				has_government = fascism
+				has_government = national_socialism
+				has_government = ultranationalism
+			}
+		}
+	}	
+	
+	option = {
+		name = SY_WORLD.1.c
+		trigger = {
+			NOT = {
+                is_in_faction_with = JAP
+				original_tag = JAP
+				is_in_faction_with = GER
+				original_tag = GER
+				is_in_faction_with = ITA
+				original_tag = ITA
+			}
+			OR = {
+				has_government = communist
+				has_government = socialist
+				has_government = progressivism
+				has_government = liberalism
+				has_government = liberal_conservatism
+				has_government = conservatism
+				has_government = paternalism
+			}		 
+		}
+	}
+
+}
+
+news_event = {
+	id = SY_WORLD.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SY_WORLD.2"}
+	title = SY_WORLD.2.t
+	desc = SY_WORLD.2.d
+	picture = GFX_news_event_SY_WORLD_2
+
+	is_triggered_only = yes
+
+	option = {
+		name = SY_WORLD.2.a
+		hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = { id = WORLD.2063 days = 2 }
+			}	
+		
+
+		}
+		}
+	}		
+
+
+}

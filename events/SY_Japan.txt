@@ -1,0 +1,160 @@
+add_namespace = SY_Cabinet_of_Japan
+add_namespace = SY_Japan_civilian
+add_namespace = japendgame
+ country_event = { 
+	id = japendgame.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event japendgame.19"}
+	title = japendgame.19.t
+	desc = japendgame.19.d
+	picture = GFX_report_event_JAP_ino_hiroya_retire
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+		    remove_ideas= {
+		      JAP_CoP_agreement_repercussions
+			  JAP_bureaucratic_paradise
+		
+		
+		    }
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = SY_WORLD.2
+					days = 1
+				}
+			}
+			remove_ideas = JAP_ino_hiroya_hog
+			remove_ideas = JAP_abe_kasuke_hog
+			remove_ideas = JAP_takase_jirou_for
+			remove_ideas = JAP_uemura_kougorou_eco
+			remove_ideas = JAP_abe_genki_sec
+
+		}
+	}	
+	option = {
+		name = japendgame.19.a
+		custom_effect_tooltip = japendgame.19.a.tt		
+		country_event = { id = SY_Cabinet_of_Japan.2 days = 6 }
+		hidden_effect = {
+			remove_ideas = {
+				JAP_maximizing_growth_idea_0
+				JAP_maximizing_growth_idea_1
+			}
+
+			set_country_flag = JAP_Economic_Wars
+			set_country_flag = JAP_yasuda_crash_happened
+
+			USA = {
+				country_event = {
+					id = sho.17 #The Malayan Civil War draws to an end
+					days = 14
+				}
+			}
+			
+			country_event = { #Start of the blitz
+				id = PHI_Blitz.3
+				days = 7
+			}
+			GNG = { #everything is a fuck
+				country_event = {
+					id = guangdong.48
+					days = 3
+				}
+			}
+			YUN = { country_event = { id = yun.32 days = 3 } }
+
+			MAN = { #everything is a fuck
+				#country_event = { id = MAN_yasuda.100 days = 3 }
+				country_event = { id = MAN_skeleton.7 days = 3 }
+			}
+		}
+		}
+	}		
+	}
+
+ }
+
+
+country_event = { 
+	id = SY_Cabinet_of_Japan.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SY_Cabinet_of_Japan.2"}	
+	title = SY_Cabinet_of_Japan.2.t
+	desc = SY_Cabinet_of_Japan.2.d
+	picture = GFX_report_event_JAP_ino_yoshino_shinji_came_to_power
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+		    add_ideas = {
+		      JAP_Financial_red_tide
+			  JAP_Political_tornado
+		
+		    }		
+        kill_country_leader = yes
+		create_country_leader = {
+			name = "JAP_hirohito_yoshino"
+			desc = "POLITICS_HIROHITO_YOSHINO_DESC"
+			picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito_yoshino.dds"
+			expire = "1988.1.1"
+			ideology = fascism_reform_bureaucracy_subtype
+
+		}			
+		every_country = {
+				limit = { is_ai = no }
+				news_event = {id = SY_WORLD.1}
+			}
+			add_ideas = JAP_yoshino_shinji_hog
+			add_ideas = JAP_sakomizu_hisatsune_hog
+			add_ideas = JAP_ushiba_nobuhiko_for
+			add_ideas = JAP_watanabetakeshi_eco
+			add_ideas = JAP_kan_tarou_sec
+
+		}
+	}
+
+	option = {
+		name = SY_Cabinet_of_Japan.2.a
+		custom_effect_tooltip =  SY_Cabinet_of_Japan.2.a.tt		
+
+	}
+	
+
+}
+
+
+country_event = { 
+	id = SY_Japan_civilian.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SY_Japan_civilian.1"}	
+	title = SY_Japan_civilian.1.t
+	desc = SY_Japan_civilian.1.d
+	picture = GFX_report_event_JAP_A_new_generation_under_fire
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+	option = {
+		name = SY_Japan_civilian.1.a
+
+	}
+	}
+country_event = { 
+	id = SY_Japan_civilian.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event SY_Japan_civilian.2"}	
+	title = SY_Japan_civilian.2.t
+	desc = SY_Japan_civilian.2.d
+	picture = GFX_report_event_JAP_Zero_day
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+
+
+	option = {
+		name = SY_Japan_civilian.2.a
+
+	}
+	
+
+}

@@ -1,8 +1,24 @@
 spriteTypes = {
 	###CHI
 	spriteType = {
-		name = "GFX_idea_CHI_National_Central_University"
-		texturefile = "gfx/interface/ideas/national_spirits/CHI_National_Central_University.dds"
+		name = "GFX_idea_JAP_CoP_agreement_repercussions"
+		texturefile = "gfx/interface/ideas/national_spirits/JAP_CoP_agreement_repercussions.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_bureaucratic_paradise"
+		texturefile = "gfx/interface/ideas/national_spirits/JAP_bureaucratic_paradise.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_bitter_fruit_of_victory"
+		texturefile = "gfx/interface/ideas/national_spirits/JAP_bitter_fruit_of_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Financial_red_tide"
+		texturefile = "gfx/interface/ideas/national_spirits/JAP_Financial_red_tide.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Political_tornado"
+		texturefile = "gfx/interface/ideas/national_spirits/JAP_Political_tornado.dds"
 	}
 	
 }	
