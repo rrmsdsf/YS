@@ -3,21 +3,78 @@ leader_traits = {
 		random = yes
 	}
 
-	hog_ino_Nagatacho = {
-     	stability_factor = -0.10
-	    poverty_monthly_rate = 0.02
-		misc_income_percent_of_GDP_modifier = 0.1
+	JAP_ino_hiroya_character = {
+      custom_modifier_tooltip = JAP_ino_hiroya_character
 
-
-		random = no
-	}
-	 lonely_shadow_in_the_sea = {
-	    production_speed_dockyard_factor = 0.20
-	    MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR = 0.2
-	    war_support_weekly = -0.0002
 
 
 		random = no
 	}
+	JAP_abe_kasuke_character = {
+      custom_modifier_tooltip = JAP_abe_kasuke_character
+
+
+
+		random = no
+	}
+	JAP_takase_jirou_character = {
+      custom_modifier_tooltip = JAP_takase_jirou_character
+
+
+
+		random = no
+	}
+	JAP_uemura_kougorou_character = {
+      custom_modifier_tooltip = JAP_uemura_kougorou_character
+
+
+
+		random = no
+	}
+	JAP_abe_genki_character = {
+      custom_modifier_tooltip = JAP_abe_genki_character
+
+
+
+		random = no
+	}
+
+	JAP_yoshino_shinji_character = {
+      custom_modifier_tooltip = JAP_yoshino_shinji_character
+
+
+
+		random = no
+	}
+	JAP_sakomizu_hisatsune_character = {
+      custom_modifier_tooltip = JAP_sakomizu_hisatsune_character
+
+
+
+		random = no
+	}
+	JAP_ushiba_nobuhiko_character = {
+      custom_modifier_tooltip = JAP_ushiba_nobuhiko_character
+
+
+
+		random = no
+	}
+	JAP_watanabetakeshi_character = {
+      custom_modifier_tooltip = JAP_watanabetakeshi_character
+
+
+
+		random = no
+	}
+	JAP_kan_tarou_character = {
+      custom_modifier_tooltip = JAP_kan_tarou_character
+
+
+
+		random = no
+	}
+
+
 
 }

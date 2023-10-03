@@ -1,0 +1,119 @@
+ideas = {
+	country = {
+
+
+		JAP_CoP_agreement_repercussions = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAP_CoP_agreement_repercussions" }
+
+			allowed = {
+				original_tag = JAP
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = JAP_CoP_agreement_repercussions
+			modifier = {
+				GDP_to_sphere_leader_modifier = -0.10
+				gdp_growth_modifier = 0.15
+				civilian_expenditures_factor = -0.1
+				research_cost_modifier = -0.05
+				personnel_cost_factor_modifier = -0.05
+			}
+		}
+
+		JAP_bureaucratic_paradise = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAP_bureaucratic_paradise" }
+
+			allowed = {
+				original_tag = JAP
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = JAP_bureaucratic_paradise
+			modifier = {
+	            fascism_drift = 0.1
+				stability_factor = 0.1
+	            drift_defence_factor = 0.05
+
+			}
+		}
+
+		JAP_bitter_fruit_of_victory = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAP_bitter_fruit_of_victory" }
+
+			allowed = {
+				original_tag = JAP
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = JAP_bitter_fruit_of_victory
+			modifier = {
+	            industrial_capacity_factory = -0.05
+				mobilization_speed = 0.05
+	            military_expenditures_factor = 0.05
+				naval_cost_modifier = 0.05
+				airforce_cost_modifier = 0.05
+				army_cost_modifier = 0.05
+				naval_industry_cost_modifier = 0.05
+				military_costs_misc = 0.5
+
+			}
+		}	
+		
+		JAP_Financial_red_tide = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAP_Financial_red_tide" }
+
+			allowed = {
+				original_tag = JAP
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = JAP_Financial_red_tide
+			modifier = {
+	            GDP_to_sphere_leader_modifier = 0.1
+			    gdp_growth_modifier = -0.1
+				civilian_expenditures_factor = 0.1
+				research_cost_modifier = 0.05
+				personnel_cost_factor_modifier = 0.05
+				stability_factor = 0.10
+				industrial_capacity_factory = -0.10
+				military_expenditures_factor = 0.10
+				naval_cost_modifier = 0.10
+                airforce_cost_modifier = 0.10
+                army_cost_modifier = 0.10
+				naval_industry_cost_modifier= 0.10
+				military_costs_misc = 0.1
+				civilian_annual_cost = 0.1
+
+
+
+			}
+			}
+		JAP_Political_tornado = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea JAP_Political_tornado" }
+
+			allowed = {
+				original_tag = JAP
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+
+			picture = JAP_Political_tornado
+			modifier = {
+				political_power_cost = 0.1
+				stability_factor = -0.1
+				admin_costs_misc = 0.05
+
+
+			}			
+		}		
+	}
+}

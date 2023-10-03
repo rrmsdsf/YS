@@ -4,7 +4,7 @@ characters = {
 		name = JAP_hirohito_ino
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/JAP/Portrait_Japan_Hirohito.dds"
+				large = "gfx/leaders/JAP/Portrait_Japan_Hirohito_ino.dds"
 			}
 		}
 		country_leader = {
@@ -15,6 +15,7 @@ characters = {
 			id = -1
 		}
 	}	
+	
 	JAP_ino_hiroya = {
 		name = JAP_ino_hiroya
 		portraits = {
@@ -29,7 +30,7 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = {
 				head_of_government
-				
+				JAP_ino_hiroya_character
 			}
 			ledger = civilian
 			cost = -1
@@ -53,7 +54,7 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = {
 				head_of_government
-				
+				JAP_abe_kasuke_character
 			}
 			ledger = civilian
 			cost = -1
@@ -77,7 +78,7 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = {
 				foreign_minister
-				
+				JAP_takase_jirou_character
 			}
 			ledger = civilian
 			cost = -1
@@ -101,7 +102,7 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = {
 				economy_minister
-				
+				JAP_uemura_kougorou_character
 			}
 			ledger = civilian
 			cost = -1
@@ -125,7 +126,7 @@ characters = {
 			allowed = { original_tag = JAP }
 			traits = {
 				security_minister
-				
+				JAP_abe_genki_character
 			}
 			ledger = civilian
 			cost = -1
@@ -135,4 +136,290 @@ characters = {
 
 	}		
 
+	JAP_yoshino_shinji = {
+		name = JAP_yoshino_shinji
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_yoshino_shinji"
+
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = JAP_yoshino_shinji_hog 
+			allowed = { original_tag = JAP }
+			traits = {
+				head_of_government
+				JAP_yoshino_shinji_character
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}
+	JAP_sakomizu_hisatsune = {
+		name = JAP_sakomizu_hisatsune
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_sakomizu_hisatsune"
+
+				
+			}
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = JAP_sakomizu_hisatsune_hog 
+			allowed = { original_tag = JAP }
+			traits = {
+				head_of_government
+				JAP_sakomizu_hisatsune_character
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}	
+	JAP_ushiba_nobuhiko = {
+		name = JAP_ushiba_nobuhiko
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_ushiba_nobuhiko"
+
+				
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = JAP_ushiba_nobuhiko_for 
+			allowed = { original_tag = JAP }
+			traits = {
+				foreign_minister
+				JAP_ushiba_nobuhiko_character
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}	
+	JAP_watanabetakeshi = {
+		name = JAP_watanabetakeshi
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_watanabetakeshi"
+
+				
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = JAP_watanabetakeshi_eco 
+			allowed = { original_tag = JAP }
+			traits = {
+				economy_minister
+				JAP_watanabetakeshi_character
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}
+	JAP_kan_tarou = {
+		name = JAP_kan_tarou
+		portraits = {
+			civilian = {
+				small = "GFX_idea_JAP_minister_kan_tarou"
+
+				
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = JAP_kan_tarou_sec 
+			allowed = { original_tag = JAP }
+			traits = {
+				security_minister
+				JAP_kan_tarou_character
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}		
+
+	}
+	JAP_uncharted = {
+		name = JAP_uncharted
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_uncharted.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_UNCHARTED_DESC"
+			ideology = communist_national_communism_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_katayama_tetsu = {
+		name = JAP_katayama_tetsu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_katayama_tetsu.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KATAYAMA_TETSU_DESC"
+			ideology = socialist_christian_socialism_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_hanyuu_sanshichi = {
+		name = JAP_hanyuu_sanshichi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_hanyuu_sanshichi.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HANYUU_SANSHICHI_DESC"
+			ideology = progressivism_democratic_socialism_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_miki_takeo = {
+		name = JAP_miki_takeo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_miki_takeo.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_MIKI_TAKEO_DESC"
+			ideology = liberalism_uncorrupted_liberalism_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_nomoto_shinakichi = {
+		name = JAP_nomoto_shinakichi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_nomoto_shinakichi.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NOMOTO_SHINAKICHI_DESC"
+			ideology = liberal_conservatism_big_tent_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_ikedahayato = {
+		name = JAP_ikedahayato
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_ikedahayato.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_IKEDAHAYATO_DESC"
+			ideology = conservatism_paternalistic_conservatism_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_fukuda_takeo = {
+		name = JAP_fukuda_takeo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_fukuda_takeo.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FUKUDA_TAKEO_DESC"
+			ideology = paternalism_1_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_satoueisaku = {
+		name = JAP_satoueisaku
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_satoueisaku.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SATOUEISAKU_DESC"
+			ideology = paternalism_authoritarian_developmentalism_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_konoe_fumimaro = {
+		name = JAP_konoe_fumimaro
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_konoe_fumimaro.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KONOE_FUMIMARO_DESC"
+			ideology = despotism_managerial_state_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_nakano_seigou = {
+		name = JAP_nakano_seigou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_nakano_seigou.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NAKANO_SEIGOU_DESC"
+			ideology = national_socialism_eastern_national_socialism_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+	JAP_satou_kenryou = {
+		name = JAP_satou_kenryou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/Portrait_Japan_satou_kenryou.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_SATOU_KENRYOU_DESC"
+			ideology = ultranationalism_reactionary_nationalism_subtype
+			traits = {}
+			expire = "1989.1.1.1"
+			id = -1
+		}
+	}	
+
+	
 }
